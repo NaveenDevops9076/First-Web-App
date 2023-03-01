@@ -22,32 +22,28 @@
 		<version>5.7.1</version>
 		<scope>test</scope>
 	</dependency>
-
-	
-	<dependency>
-		<groupId>org.springframework</groupId>
-		<artifactId>spring-context</artifactId>
-		<version>6.0.1</version>
-	</dependency>
-
-		
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-context</artifactId>
+			<version>6.0.1</version>
+		</dependency>
   </dependencies>
   
+  <properties>
+		<sonar.host.url>http://35.154.19.163:9000/</sonar.host.url>
+		<sonar.login>84b6d5dc312dd56eef51e2765e86e69734838c4b</sonar.login>
+  </properties>
   
-  
-  <build>
-  <finalName>First-Web-App</finalName>
-    
-	<plugins>
-	<plugin>
-		<groupId>org.apache.maven.plugins</groupId>
-		<artifactId>maven-war-plugin</artifactId>
-		<version>3.3.1</version>
-	</plugin>
-   </plugins>
-	
-	
-</build>
+	<build>
+		<finalName>First-Web-App</finalName>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-war-plugin</artifactId>
+				<version>3.3.1</version>
+			</plugin>
+		</plugins>
+	</build>
   
   
 </project>
