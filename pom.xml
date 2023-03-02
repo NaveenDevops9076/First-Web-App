@@ -15,38 +15,6 @@
       <scope>test</scope>
     </dependency>
 	
-	
-	<dependency>
-		<groupId>org.junit.jupiter</groupId>
-		<artifactId>junit-jupiter-api</artifactId>
-		<version>5.7.1</version>
-		<scope>test</scope>
-	</dependency>
-	
-	<!-- https://mvnrepository.com/artifact/org.codehaus.sonar-plugins/sonar-cobertura-plugin -->
-<dependency>
-    <groupId>org.codehaus.sonar-plugins</groupId>
-    <artifactId>sonar-cobertura-plugin</artifactId>
-    <version>1.6.3</version>
-</dependency>
-
-
-<!-- https://mavenlibs.com/maven/dependency/org.codehaus.sonar.plugins/sonar-findbugs-plugin -->
-<dependency>
-    <groupId>org.codehaus.sonar.plugins</groupId>
-    <artifactId>sonar-findbugs-plugin</artifactId>
-    <version>3.3.2</version>
-</dependency>
-
-
-<!-- https://mavenlibs.com/maven/dependency/net.sourceforge.cobertura/cobertura -->
-<dependency>
-    <groupId>net.sourceforge.cobertura</groupId>
-    <artifactId>cobertura</artifactId>
-    <version>2.1.1</version>
-</dependency>
-
-
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-context</artifactId>
