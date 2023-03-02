@@ -31,7 +31,7 @@
   
   <properties>
 		<java.version>1.8</java.version>
-		<sonar.host.url>http://35.154.19.163:9000/</sonar.host.url>
+		<sonar.host.url>http://13.235.135.33:9000/</sonar.host.url>
 		<sonar.login>84b6d5dc312dd56eef51e2765e86e69734838c4b</sonar.login>
   </properties>
   
